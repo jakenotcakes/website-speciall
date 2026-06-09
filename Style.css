@@ -261,7 +261,7 @@ main {
   opacity: 0;
   transform: translateY(24px);
   transition: opacity 0.9s ease 0.2s, transform 0.9s ease 0.2s;
-  font-size: 26px;
+  font-size: 20px;
   max-width: 740px;
   margin: 1.5rem auto 0;
   line-height: 1.8;
