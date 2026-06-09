@@ -241,7 +241,7 @@ main {
   margin-top: 0.5rem;
   font-size: 3.2rem;
   font-weight: 800;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.00em;
   transform: translateY(24px);
   transition: opacity 0.9s ease, transform 0.9s ease;
   display: flex;
