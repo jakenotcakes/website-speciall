@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const countdownLock = true;
     // Change clickLock to True to disable click reveal before countdown ends
-    const clickLock = false;
+    const clickLock = true;
 
     function revealContent() {
       if (!isFinished) {
@@ -91,7 +91,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (countdownCover) {
       countdownCover.addEventListener("click", () => {
         if (!isFinished && typeof clickLock !== "undefined" && clickLock) {
-          alert("Not time yet — please wait for the countdown to finish.");
+          alert("Not time yet — Please Wait");
           return;
         }
         revealContent();
